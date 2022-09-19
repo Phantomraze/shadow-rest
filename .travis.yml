@@ -1,0 +1,16 @@
+language: go
+
+go:
+    - 1.7
+
+install:
+    - go get github.com/gorilla/mux
+    - go get github.com/andy-zhangtao/Sandstorm
+    - go get github.com/andy-zhangtao/golog
+    - go get github.com/codahale/chacha20
+    - go get golang.org/x/crypto/blowfish
+    - go get golang.org/x/crypto/cast5
+    - go get golang.org/x/crypto/salsa20/salsa
+    - go get -u github.com/kataras/go-mailer
+script:
+    - cd script; ./build.sh

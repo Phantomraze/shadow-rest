@@ -1,0 +1,6 @@
+{
+	"local_port": 1080,
+	"server_password": [
+		["do512.openss.cc:10001", "12345678", "aes-256-cfb"]
+	]
+}
